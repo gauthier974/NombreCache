@@ -14,6 +14,7 @@ namespace NombreCache
         {
             Console.Write(message + " entre " + borneMin + " et " + borneMax + " = ");
             int nombre = 0;
+            int essai = 0;
             bool correct = false;
             while (!correct || nombre > borneMax || nombre < borneMin)
             {
