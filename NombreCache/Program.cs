@@ -10,7 +10,7 @@ namespace NombreCache
 {
     class Program
     {
-        static int saisie(string message, int borneMin, int borneMax)
+        static int saisie(string message, int borneMin, int borneMax) // test modification de code
         {
             Console.Write(message + " entre " + borneMin + " et " + borneMax + " = ");
             int nombre = 0;
